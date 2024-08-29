@@ -1,5 +1,6 @@
 "use client";
 import Input from '@/components/ui/input';
+import InputPassword from '@/components/ui/input-password';
 import React, { useState } from 'react';
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -21,6 +22,7 @@ const Login = () => {
             <span>Login Page</span>
             <button onClick={handleSubmit}>Clique para notificacoes</button>
             <Input />
+            <InputPassword />
             <Toaster />
         </div>
     );
